@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  sisix-3d:
+    build: .
+    container_name: sisix-3d-horario
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    volumes:
+      - ./dist:/app/dist:ro

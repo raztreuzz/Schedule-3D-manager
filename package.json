@@ -2,6 +2,10 @@
   "name": "sisix-3d",
   "version": "1.0.0",
   "description": "Horario 3D con gestión de tareas - Sistema de visualización interactivo",
+  "author": {
+    "name": "raztreuzz",
+    "email": "raztreuzz@users.noreply.github.com"
+  },
   "main": "electron/main.js",
   "private": true,
   "scripts": {
